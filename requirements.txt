@@ -6,3 +6,4 @@ tensorflow==2.5.0
 joblib==0.17.0
 streamlit==0.83.0
 Pillow==8.1.0
+protoc>=3.19.0
