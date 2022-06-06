@@ -6,13 +6,13 @@ from PIL import Image
 import create_model as cm
 
 
-st.title("Chest X-ray Report Generator")
+st.title("Automatic medical report generation from radiology chest x-ray using deep learning strategy")
 
-st.markdown("<small>by Ashish</small>",unsafe_allow_html=True)
-st.markdown("[<small>Github</small>](https://github.com/ashishthomaschempolil/Medical-Image-Captioning-on-Chest-X-rays)          [<small>Towards Data Science</small>](https://towardsdatascience.com/medical-image-captioning-on-chest-x-rays-a43561a6871d)",
-unsafe_allow_html=True)
+st.markdown("<small>by Rajath Pai</small>",unsafe_allow_html=True)
+st.markdown("[<small>Github</small>](https://github.com/rajathpi/automatic-report-generator)",unsafe_allow_html=True)
 st.markdown("\nThis app will generate impression part of an X-ray report.\nYou can upload 2 X-rays that are front view and side view of chest of the same individual.")
 st.markdown("The 2nd X-ray is optional.")
+
 
 
 col1,col2 = st.beta_columns(2)
